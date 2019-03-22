@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--<color name="colorPrimary">#3F51B5</color>-->
+    <color name="colorPrimary">#2b2f71</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="coins">#EEFF00</color>
+    <color name="bottomNav">#FF0000</color>
+    <color name="headerText">#FFFFFF</color>
+    <color name="upCash">#508050</color>
+    <color name="opacity">#00000000</color>
+    <color name="downCash">#FF0000</color>
+    <color name="column1">#eaebeb</color>
+    <color name="column2">#FFFF</color>
+    <color name="stableCash">#02b2f4</color>
+    <color name="white">#FFFF</color>
+    <color name="black">#000000</color>
+</resources>

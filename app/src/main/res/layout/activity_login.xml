@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".loginActivity">
+    <ProgressBar
+        android:id="@+id/progressSignUp"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:visibility="gone"/>
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/constraintSignUp">
+        <TextView
+            android:id="@+id/tvAdSoyad"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="50dp"
+            android:text="Ad - Soyad"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/editAdSoyad"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toEndOf="@+id/tvAdSoyad"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginLeft="8dp"
+            app:layout_constraintRight_toRightOf="parent"
+            android:layout_marginTop="40dp"/>
+        <TextView
+            android:id="@+id/tvFirma"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="25dp"
+            android:text="Firma"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tvAdSoyad" />
+
+        <EditText
+            android:id="@+id/editFirma"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toEndOf="@+id/tvAdSoyad"
+            app:layout_constraintTop_toBottomOf="@+id/editAdSoyad"
+            android:layout_marginLeft="8dp"
+            app:layout_constraintRight_toRightOf="parent"
+            android:layout_marginTop="8dp"/>
+        <TextView
+            android:id="@+id/tvMailLogin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="25dp"
+            android:text="Mail"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tvFirma" />
+
+        <EditText
+            android:id="@+id/editMailLogin"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toEndOf="@+id/tvAdSoyad"
+            app:layout_constraintTop_toBottomOf="@+id/editFirma"
+            android:layout_marginLeft="8dp"
+            android:inputType="textEmailAddress"
+            app:layout_constraintRight_toRightOf="parent"
+            android:layout_marginTop="8dp"/>
+        <TextView
+            android:id="@+id/tvTelLogin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="25dp"
+            android:text="Telefon"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tvMailLogin" />
+
+        <EditText
+            android:id="@+id/editTelLogin"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toEndOf="@+id/tvAdSoyad"
+            app:layout_constraintTop_toBottomOf="@+id/editMailLogin"
+            android:layout_marginLeft="8dp"
+            app:layout_constraintRight_toRightOf="parent"
+            android:inputType="phone"
+            android:layout_marginTop="8dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Telefon Numarasını Başında 0 Olmadan Yazınız"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editTelLogin"/>
+        <Button
+            android:id="@+id/btnSignUp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@+id/tvTelLogin"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            android:text="Kayıt Ol"
+            android:layout_marginTop="40dp"/>
+
+    </android.support.constraint.ConstraintLayout>
+    <android.support.constraint.ConstraintLayout
+        android:id="@+id/constraintVerify"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Gelen Doğrulama Kodunu Giriniz"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            android:layout_marginTop="150dp"/>
+        <EditText
+            android:id="@+id/editVerify"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toBottomOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="100dp"
+            android:inputType="number"/>
+        <Button
+            android:id="@+id/btnVerify"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintTop_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            android:text="Doğrula"
+            android:layout_marginTop="180dp"/>
+        <Button
+            android:id="@+id/btnVerifyRefresh"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintTop_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            android:text="Yeniden Kod Gönder"
+            android:layout_marginTop="250dp"/>
+        <TextView
+            android:id="@+id/tvInfoLogin"
+            android:textColor="@color/downCash"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            android:layout_marginTop="16dp"/>
+    </android.support.constraint.ConstraintLayout>
+
+</android.support.constraint.ConstraintLayout>

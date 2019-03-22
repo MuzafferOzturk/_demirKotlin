@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">FKM DEMİR</string>
+    <string name="title_activity_navigation">navigation</string>
+    <string name="title_section1">Section 1</string>
+    <string name="title_section2">Section 2</string>
+    <string name="title_section3">Section 3</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_example">Example action</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_main_navigation">mainNavigation</string>
+    <string name="aboutUs">
+        Isik Profil’in temelleri 1982 yilinda atilmistir. Isik Profil bugün, çeyrek asrı aşkın tecrübesiyle inşaat sektörüne demir çesitleri, saclar, profiller, silmeler, borular insaat demirleri ile NPU ve NPI ürünleriyle büyük bir katki saglamaktadir. Sirketin temel degerleri olarak güven, kalite ve müsteri memnuniyeti anlayisini benimseyen Isik Profil, “sürdürülebilir büyüme”, “verimlilik” ve “istikrar”i is stratejilerine yön veren ilkeler olarak görmektedir.
+        \n\nIsik Profil; güçlü öz sermayesi, teknolojik altyapisi ve entellektüel sermayeye verdigi önemle sektörünün yenilikçi sirketlerinden biri olarak faaliyetlerine devam etmektedir.
+    </string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="title_activity_login">loginActivity</string>
+</resources>

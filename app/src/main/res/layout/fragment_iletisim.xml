@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="56dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:fillViewport="true">
+
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="16dp"
+                android:src="@drawable/logo2"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <Button
+                android:id="@+id/fActionBtnCall"
+                android:layout_width="320dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="8dp"
+                android:background="@color/opacity"
+                android:drawableLeft="@drawable/ic_local_phone_black_24dp"
+                android:drawablePadding="30dp"
+                android:gravity="center"
+                android:text="0352 321 19 84"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageView"
+                android:textSize="17sp"/>
+            <!--<android.support.design.widget.FloatingActionButton-->
+                <!--android:id="@+id/fActionBtnCall"-->
+                <!--android:layout_width="50dp"-->
+                <!--android:layout_height="50dp"-->
+                <!--android:layout_marginEnd="8dp"-->
+                <!--android:layout_marginLeft="20dp"-->
+                <!--android:layout_marginRight="8dp"-->
+                <!--android:layout_marginStart="20dp"-->
+                <!--android:layout_marginTop="8dp"-->
+                <!--android:backgroundTint="@color/headerText"-->
+                <!--android:scaleType="center"-->
+                <!--android:src="@drawable/ic_local_phone_black_24dp"-->
+                <!--app:layout_constraintStart_toStartOf="parent"-->
+                <!--app:layout_constraintTop_toBottomOf="@+id/imageView" />-->
+
+            <!--<android.support.v7.widget.AppCompatTextView-->
+                <!--android:id="@+id/tvPhone"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_marginLeft="20dp"-->
+                <!--android:layout_marginTop="18dp"-->
+                <!--android:text="444 4 805"-->
+                <!--android:textSize="20sp"-->
+                <!--android:ellipsize="end"-->
+                <!--android:maxLines="3"-->
+                <!--android:scrollHorizontally="false"-->
+                <!--android:textStyle="bold"-->
+                <!--app:layout_constraintStart_toEndOf="@+id/fActionBtnCall"-->
+                <!--app:layout_constraintTop_toBottomOf="@+id/imageView" />-->
+
+            <Button
+                android:id="@+id/fActionBtnLoc"
+                android:layout_width="320dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="8dp"
+                android:background="@color/opacity"
+                android:drawableLeft="@drawable/ic_location_on_black_24dp"
+                android:drawablePadding="30dp"
+                android:gravity="center"
+                android:textAllCaps="false"
+                android:text="Oymaağaç Mh. Mobilyakent Sitesi P2 Kocasinan/Kayseri"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/fActionBtnCall"
+                app:layout_constraintRight_toRightOf="parent"
+                android:textSize="17sp"/>
+
+            <!--<android.support.design.widget.FloatingActionButton-->
+                <!--android:id="@+id/fActionBtnLoc"-->
+                <!--android:layout_width="50dp"-->
+                <!--android:layout_height="50dp"-->
+                <!--android:layout_marginLeft="20dp"-->
+                <!--android:layout_marginStart="20dp"-->
+                <!--android:layout_marginTop="20dp"-->
+                <!--android:backgroundTint="@color/headerText"-->
+                <!--android:scaleType="center"-->
+                <!--android:src="@drawable/ic_location_on_black_24dp"-->
+                <!--app:layout_constraintStart_toStartOf="parent"-->
+                <!--app:layout_constraintTop_toBottomOf="@+id/fActionBtnCall" />-->
+
+            <!--<android.support.v7.widget.AppCompatTextView-->
+                <!--android:id="@+id/tvLoc"-->
+                <!--android:layout_width="0dp"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_marginEnd="8dp"-->
+                <!--android:layout_marginLeft="10dp"-->
+                <!--android:layout_marginRight="41dp"-->
+                <!--android:layout_marginStart="20dp"-->
+                <!--android:layout_marginTop="35dp"-->
+                <!--android:text="Fevzi Çakmak Mh. Gülistan Cd.No:70 Karatay / Konya"-->
+                <!--android:textSize="20sp"-->
+                <!--android:ellipsize="end"-->
+                <!--android:maxLines="2"-->
+                <!--android:textStyle="bold"-->
+                <!--app:layout_constraintEnd_toEndOf="parent"-->
+                <!--app:layout_constraintStart_toEndOf="@+id/fActionBtnLoc"-->
+                <!--app:layout_constraintTop_toBottomOf="@+id/tvPhone" />-->
+
+            <Button
+                android:id="@+id/fActionBtnMail"
+                android:layout_width="320dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="8dp"
+                android:background="@color/opacity"
+                android:drawableLeft="@drawable/ic_email_black_24dp"
+                android:drawablePadding="30dp"
+                android:gravity="center"
+                android:text="info@fkmmalzeme.com.tr"
+                android:textAllCaps="false"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/fActionBtnLoc"
+                android:textSize="17sp"/>
+            <!--<android.support.design.widget.FloatingActionButton-->
+                <!--android:id="@+id/fActionBtnMail"-->
+                <!--android:layout_width="50dp"-->
+                <!--android:layout_height="50dp"-->
+                <!--android:layout_marginLeft="20dp"-->
+                <!--android:layout_marginStart="20dp"-->
+                <!--android:layout_marginTop="20dp"-->
+                <!--android:backgroundTint="@color/headerText"-->
+                <!--android:scaleType="center"-->
+                <!--android:src="@drawable/ic_email_black_24dp"-->
+                <!--app:layout_constraintStart_toStartOf="parent"-->
+                <!--app:layout_constraintTop_toBottomOf="@+id/fActionBtnLoc" />-->
+
+            <!--<android.support.v7.widget.AppCompatTextView-->
+                <!--android:id="@+id/tvMail"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_marginLeft="20dp"-->
+                <!--android:layout_marginTop="30dp"-->
+                <!--android:text="siparis@isikprofil.com"-->
+                <!--android:textSize="20sp"-->
+                <!--android:textStyle="bold"-->
+                <!--app:layout_constraintStart_toEndOf="@+id/fActionBtnMail"-->
+                <!--app:layout_constraintTop_toBottomOf="@+id/fActionBtnLoc" />-->
+            <Button
+                android:id="@+id/fActionBtnFax"
+                android:layout_width="320dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="8dp"
+                android:background="@color/opacity"
+                android:drawableLeft="@drawable/ic_print_black_24dp"
+                android:drawablePadding="30dp"
+                android:gravity="center"
+                android:text="0352 321 1985"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/fActionBtnMail"
+                android:textSize="17sp"/>
+            <!--<android.support.design.widget.FloatingActionButton-->
+                <!--android:id="@+id/fActionBtnFax"-->
+                <!--android:layout_width="50dp"-->
+                <!--android:layout_height="50dp"-->
+                <!--android:layout_marginLeft="20dp"-->
+                <!--android:layout_marginStart="20dp"-->
+                <!--android:layout_marginTop="20dp"-->
+                <!--android:backgroundTint="@color/headerText"-->
+                <!--android:scaleType="center"-->
+                <!--android:src="@drawable/ic_print_black_24dp"-->
+                <!--app:layout_constraintStart_toStartOf="parent"-->
+                <!--app:layout_constraintTop_toBottomOf="@+id/fActionBtnMail" />-->
+
+            <!--<android.support.v7.widget.AppCompatTextView-->
+                <!--android:id="@+id/tvFax"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_marginLeft="20dp"-->
+                <!--android:layout_marginTop="40dp"-->
+                <!--android:text="0332 503 05 17"-->
+                <!--android:textSize="20sp"-->
+                <!--android:textStyle="bold"-->
+                <!--app:layout_constraintTop_toBottomOf="@+id/fActionBtnMail"-->
+                <!--/>-->
+        </android.support.constraint.ConstraintLayout>
+    </ScrollView>
+</android.support.constraint.ConstraintLayout>

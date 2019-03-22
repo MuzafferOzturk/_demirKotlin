@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/fiyat"
+        android:title="Fiyat"
+        android:icon="@drawable/ic_coins2"/>
+    <item
+        android:id="@+id/haber"
+        android:title="Haberler"
+        android:icon="@drawable/ic_promotion"/>
+    <item
+        android:id="@+id/fiyatAl"
+        android:title="Teklif Al"
+        android:icon="@drawable/ic_support"/>
+</menu>

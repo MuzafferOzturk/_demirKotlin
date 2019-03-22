@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="56dp"
+        android:layout_alignParentTop="true">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/tvNakliyeBiga"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="BİGA ÇIKIŞLI NAKLİYE FİYATLARI"
+                android:gravity="center"
+                android:layout_marginTop="8dp"
+                android:layout_alignParentTop="true"
+                android:textColor="@color/black"/>
+            <HorizontalScrollView
+                android:id="@+id/hsvNakliyeBiga"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tvNakliyeBiga">
+                <TableLayout
+                    android:id="@+id/tlNakliyeBiga"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+
+                    android:stretchColumns="*">
+                </TableLayout>
+            </HorizontalScrollView>
+
+
+            <TextView
+                android:id="@+id/tvNakliyeKarabük"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/hsvNakliyeBiga"
+                android:layout_marginTop="8dp"
+                android:text="KARABÜK ÇIKIŞLI NAKLİYE FİYATLARI"
+                android:gravity="center"
+                android:textColor="@color/black"/>
+            <HorizontalScrollView
+                android:id="@+id/hsvNakliyeKarabuk"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tvNakliyeKarabük">
+                <TableLayout
+                    android:id="@+id/tlNakliyeKarabük"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:stretchColumns="*">
+                </TableLayout>
+            </HorizontalScrollView>
+
+            <TextView
+                android:id="@+id/tvNakliyeIzmir"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/hsvNakliyeKarabuk"
+                android:layout_marginTop="8dp"
+                android:text="İZMİR ÇIKIŞLI NAKLİYE FİYATLARI"
+                android:gravity="center"
+                android:textColor="@color/black"/>
+            <HorizontalScrollView
+                android:id="@+id/hsvNakliyeIzmir"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tvNakliyeIzmir">
+                <TableLayout
+                    android:id="@+id/tlNakliyeIzmir"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:stretchColumns="*">
+                </TableLayout>
+            </HorizontalScrollView>
+
+            <TextView
+                android:id="@+id/tvNakliyePayas"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/hsvNakliyeIzmir"
+                android:layout_marginTop="8dp"
+                android:text="PAYAS ÇIKIŞLI NAKLİYE FİYATLARI"
+                android:gravity="center"
+                android:textColor="@color/black"/>
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tvNakliyePayas">
+                <TableLayout
+                    android:id="@+id/tlNakliyePayas"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:stretchColumns="*">
+                </TableLayout>
+            </HorizontalScrollView>
+
+
+        </RelativeLayout>
+
+
+    </ScrollView>
+</RelativeLayout>

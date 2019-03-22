@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "151451903168",
+    "firebase_url": "https://demir-db997.firebaseio.com",
+    "project_id": "demir-db997",
+    "storage_bucket": "demir-db997.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:151451903168:android:0c821ac1b8fe5397",
+        "android_client_info": {
+          "package_name": "com.rookiesoft.demir"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "151451903168-t1rhmdoqfund19185ar7k3vcs5nhoafa.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.rookiesoft.demir",
+            "certificate_hash": "a2d3b99430e76f493ae577e761a52040ddb0e344"
+          }
+        },
+        {
+          "client_id": "151451903168-5o6lroqaiav2o55p02e50cujv8n48jtk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA7Rbhvkg4-2B4Mrumqeda3aHAtfYJ0VNA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "151451903168-5o6lroqaiav2o55p02e50cujv8n48jtk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

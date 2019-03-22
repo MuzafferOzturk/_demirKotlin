@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="testWidget">
+        <attr name="changeText" format="string"/>
+    </declare-styleable>
+</resources>

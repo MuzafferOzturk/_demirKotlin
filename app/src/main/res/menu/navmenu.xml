@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/fiyat"
+        android:title="Ana Menu"
+        android:icon="@drawable/ic_coins2"/>
+    <item
+        android:id="@+id/haber"
+        android:title="Haberler"
+        android:icon="@drawable/ic_promotion"/>
+    <item
+        android:id="@+id/fiyatAl"
+        android:title="Teklif Al"
+        android:icon="@drawable/ic_support"/>
+    <!--<item-->
+        <!--android:id="@+id/hakkimizda"-->
+        <!--android:title="Hakkımızda"-->
+        <!--android:icon="@drawable/ic_information"/>-->
+    <item
+        android:id="@+id/taksit"
+        android:title="Taksit Seçenekleri"
+        android:icon="@drawable/ic_credit_card"/>
+    <item
+        android:id="@+id/Nakliye"
+        android:title="Nakliye Fiyatları"
+        android:icon="@drawable/ic_logistics_delivery_truck_in_movement"/>
+    <item
+        android:id="@+id/teknikBilgiler"
+        android:title="Teknik Bilgiler"
+        android:icon="@drawable/ic_technical_drawing"/>
+    <item
+        android:id="@+id/iletisim"
+        android:title="İletişim"
+        android:icon="@drawable/ic_telephone"/>
+
+</menu>
